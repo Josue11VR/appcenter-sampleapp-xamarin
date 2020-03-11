@@ -10,7 +10,7 @@ namespace sampleAppXamarin
     {
         public App()
         {
-            AppCenter.Start("android=<INSERT_ANDROID_APP_SECRET_HERE>;" +
+            AppCenter.Start("android=fde9f98e-8f8f-489d-aa3c-fe8af70d2334;" +
                    "ios=<INSERT_IOS_APP_SECRET_HERE>;",
                    typeof(Analytics), typeof(Crashes));
             MainPage = new ButtonPage();
