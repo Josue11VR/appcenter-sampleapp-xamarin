@@ -26,7 +26,7 @@ namespace UITest
         }
 
         [Test]
-        public void AppLaunches()
+        public void PruebaEjemplo()
         {
             Assert.IsTrue(true);
         }
