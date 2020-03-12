@@ -26,9 +26,15 @@ namespace UITest
         }
 
         [Test]
-        public void PruebaEjemplo()
+        public void PruebaCorrecta()
         {
             Assert.IsTrue(true);
+        }
+
+        [Test]
+        public void PruebaError()
+        {
+            Assert.IsTrue(false);
         }
     }
 }
